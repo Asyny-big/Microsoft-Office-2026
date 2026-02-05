@@ -38,14 +38,14 @@ reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "C
 
 После этого начнётся установка Microsoft Office.
 
-Активация Microsoft Office через PowerShell
+## Активация Microsoft Office через PowerShell
 
-Шаг 1. Запуск PowerShell от имени администратора
-Шаг 2. Выполнение скрипта активации
+## Шаг 1. Запуск PowerShell от имени администратора
+## Шаг 2. Выполнение скрипта активации
 В окне PowerShell введите следующую команду и нажмите Enter:
-PowerShellirm https://get.activated.win | iex
+PowerShellirm ```powershell https://get.activated.win | iex ```
 Эта команда скачает и запустит скрипт MAS напрямую из официального источника. После выполнения откроется меню с опциями активации.
-Шаг 3. Выбор метода активации
+## Шаг 3. Выбор метода активации
 В появившемся меню вы увидите список вариантов.
 Выбираем:
 [2] Ohook: Постоянная активация Office.
