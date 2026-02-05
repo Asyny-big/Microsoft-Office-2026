@@ -1,4 +1,4 @@
-# Как скачать и установить Microsoft Office (Word, Excel, PowerPoint и др.) в 2025 году
+# Как скачать и установить Microsoft Office (Word, Excel, PowerPoint и др.) в 2026 году
 
 ## Описание
 
@@ -38,10 +38,7 @@ reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "C
 
 После этого начнётся установка Microsoft Office.
 
-## Важно!
+Активация Office через PowerShell
 
-Данный способ позволяет установить лицензионную версию Office. Взлом и использование нелицензионных методов не рекомендуется, так как это нарушает правила и может привести к заражению компьютера вирусами.
+<img width="806" height="1165" alt="image" src="https://github.com/user-attachments/assets/d2958170-1e11-4c59-aa9e-b2df252677d8" />
 
----
-
-> **Безопасность прежде всего!** Всегда скачивайте ПО только с официальных источников.
