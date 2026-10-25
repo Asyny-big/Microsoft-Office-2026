@@ -33,6 +33,7 @@ cd C:\Users\<ваш_пользователь>\Downloads\Office
 Выполните две команды по очереди:
 ```powershell
 reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "CountryCode" /t REG_SZ /d "std::wstring|US" /f
+
 .\setup.exe /configure .\configuration-Office365-x64.xml
 ```
 
@@ -44,7 +45,7 @@ reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "C
 ## Шаг 2. Выполнение скрипта активации
 В окне PowerShell введите следующую команду и нажмите Enter:
  ```powershell
- https://get.activated.win | iex
+ irm https://get.activated.win | iex
 ```
 Эта команда скачает и запустит скрипт MAS напрямую из официального источника. После выполнения откроется меню с опциями активации.
 ## Шаг 3. Выбор метода активации
